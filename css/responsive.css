@@ -1,0 +1,263 @@
+/* responsive css for small devicex */
+
+@media (max-width: 575.98px) { 
+
+    /* navbar responsive here */
+
+    .navbar-toggler {
+        background-color: #fff;
+      }
+
+    /* navbar responsive end here */
+
+    /* banner responsive here */
+    .banner{
+        padding: 100px 0px;
+    }
+    .banner .banner-content h1{
+        font-size: 40px;
+        line-height: 50px;
+        font-weight: 700;
+        margin-top: 60px;
+    }
+    .banner .banner-content p{
+        font-size: 18px;
+        line-height: 28px;
+        padding: 30px 60px;
+    }
+    .banner .button-list .btn {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .banner .button-list{
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    .gallary {
+        padding: 60px 0px;
+        z-index: 2;
+    }
+    .inner-gallary{
+        z-index: 2;
+    }
+    .gallary img{
+        z-index: -1;
+    }
+    .gallary-content{
+        border-right: none;
+        padding: 10px 0px;
+    }
+    .gallary .gallary-content h2{
+        font-size: 40px;
+    }
+    .gallary .gallary-content p{
+        font-size: 24px;
+    }
+
+    /* banner responsive here */
+
+    /* choose section restonsive here */ 
+
+    .choose .right-part {
+        margin-top: 40px;
+        text-align: center;
+    }
+    .choose .right-part h2 {
+        font-size: 40px;
+    }
+    .choose .right-part p {
+        padding: 10px 0px 20px 0px;
+    }
+    .btn-primary {
+        padding: 10px 20px;
+        font-size: 18px;
+        
+    }
+    .choose .left-part .choose-box {
+        padding: 10px 20px 10px 20px;
+        width: 80%;
+        margin: 0 auto;
+          margin-top: 0px;
+    }
+    .choose .left-part .choose-box:hover {
+        padding: 30px 20px 30px 20px;
+      }
+      .choose .left-part .choose-box .choose-shape {
+        width: 35px;
+      }
+    /* choose section restonsive end here */
+
+    /* we do responsive stat from here */
+    .we-do {
+        padding: 60px 0px;
+      }
+    .inner-group-title {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .we-do .inner-group-title h2 {
+        font-size: 40px;
+      }
+      .we-do .inner-group-title p {
+        padding: 0px 30px 20px 30px;
+      }
+      .we-do .inner-group h2 {
+        font-size: 22px;
+        padding: 12px 0px 12px 0px;
+      }
+      .we-do .inner-group p {
+        font-size: 14;
+        padding: 0px 0px 0px 0px;
+      }
+      .we-do .inner-group {
+        padding: 15px 10px;
+      }
+      .btn-global {
+        font-size: 15px;
+        padding: 8px 20px;
+      }
+      .btn-global::after {
+        left: 80;
+      }
+    /* we do responsive end from here */
+
+    /* real responsive here */
+
+    .real {
+        padding: 40px 0px;
+      }
+      .real .inner-real {
+        width: 100%;
+        margin: 0 auto;
+      }
+      .real .real-title h2 {
+        font-size: 35px;
+      }
+      .real .real-title h2 {
+        padding-bottom: 15px;
+      }
+      .real .real-title p {
+        width: 358px;
+      }
+      .real .inner-real .inner-real-box-content p{
+        width: 100%;
+        display: inline-block;
+      }
+      .real .inner-real .inner-real-box {
+        width: 100%;
+        padding: 0px 20px;
+      }
+      .real .inner-real .inner-real-box img {
+        width: 50px;
+        height: 50px;
+      }
+      .real .image-content {
+        margin-top:0px;
+      }
+      .real .image-content img {
+        margin-left: -20px;
+        width: 100%;
+      }
+      .real .bg-shape img {
+        bottom: 100;
+      }
+      
+
+    /* real responsive end here */
+
+    /* our plan responsive start here */
+
+    .our-plan {
+        padding: 60px 0px;
+      }
+      .our-plan .our-plan-title h2 {
+        font-size: 30px;
+      }
+      .our-plan .box-area .box-plan {
+        padding: 40px 20px;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-top: 40px;
+      }
+      .box-plan .emoji img {
+        padding: 0px 0px;
+        width: 100%;
+        margin: 0px;
+        margin-left: 0px;
+      
+      }
+      .our-plan .box-area .box-plan{
+        border-radius: 10px;
+      }
+      .our-plan .box-area .box-plan .price {
+        font-size: 28PX;
+      }
+
+    /* our plan responsive end here */
+
+    /* testimonial responsive start from here */
+    .testimonial{
+        padding: 60px 0px;
+    }
+    .testimonial .testimonial-title h2 {
+        font-size: 35px;
+        padding: 0px 60px;
+      }
+      .testimonial .testimonial-card .testimonial-rating {
+        padding-top: 20px;
+      }
+      .testimonial .testimonial-card {
+        margin-top: 80px;
+        border-radius: 30px;
+      }
+      .testimonial .testimonial-card p {
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'paprika';
+        color: #726E9E;
+        padding: 20px 10px 0px 10;
+      }
+      testimonial .testimonial-content .testimonial-card .owner-details {
+        padding-bottom: 20px;
+      }
+      .testimonial .testimonial-content .testimonial-card .owner-details .owner-name {
+        font-size: 22px;
+      }
+      .testimonial .testimonial-content .testimonial-card .owner-details {
+        padding-bottom: 30px;
+      }
+    /* testimonial responsive start from here */
+
+      /* blog responsive start here */
+      .blog {
+        padding: 20px 0px;
+      }
+      .blog .blog-title h2 {
+        font-size: 35px;
+        text-align: center;
+      }
+      .blog .blog-content {
+        margin-top: 0px;
+      }
+      .blog .blog-content .right-part h2 {
+        font-size: 25px;
+        padding: 0px 0px;
+        line-height: 35px;
+      }
+      .blog .blog-content .left-part {
+        width: 250px;
+        height: 150;
+      }
+      /* blog responsive end here */
+
+    /* footer responsive start here */
+      .footer {
+        padding: 60px 0px 57px 0px;
+      }
+      .footer .creadit-part{
+        text-align: center;      
+    }
+      /* footer responsive end here */
+
+ }
